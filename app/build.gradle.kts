@@ -68,7 +68,9 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     implementation ("androidx.compose.ui:ui:1.0.0")
     implementation ("androidx.compose.material:material:1.0.0")
-    implementation ("androidx.navigation:navigation-compose:2.4.0-alpha01")
+    implementation ("androidx.navigation:navigation-compose:2.5.3")
+    implementation("network.chaintech:compose-multiplatform-media-player:1.0.11")
+    implementation("network.chaintech:sdp-ssp-compose-multiplatform:1.0.1")
 
 
 }
