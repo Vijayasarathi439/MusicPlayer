@@ -60,17 +60,23 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
     testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation("androidx.test.ext:junit:1.2.1")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
     androidTestImplementation(platform("androidx.compose:compose-bom:2023.08.00"))
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-    implementation ("androidx.compose.ui:ui:1.0.0")
-    implementation ("androidx.compose.material:material:1.0.0")
-    implementation ("androidx.navigation:navigation-compose:2.5.3")
+    implementation ("androidx.compose.ui:ui:1.6.8")
+    implementation ("androidx.compose.material:material:1.6.8")
+    implementation ("androidx.navigation:navigation-compose:2.7.7")
     implementation("network.chaintech:compose-multiplatform-media-player:1.0.11")
     implementation("network.chaintech:sdp-ssp-compose-multiplatform:1.0.1")
+    api("io.github.qdsfdhvh:image-loader:1.8.1")
+
+    //spotify
+/*
+    implementation("com.spotify.android:spotify-app-remote:0.7.0")
+    implementation("com.google.code.gson:gson:2.10")*/
 
 
 }

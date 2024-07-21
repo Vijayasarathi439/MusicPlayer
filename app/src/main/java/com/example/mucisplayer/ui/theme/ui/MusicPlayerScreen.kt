@@ -7,14 +7,18 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
+import chaintech.videoplayer.model.AudioPlayerConfig
+import chaintech.videoplayer.model.PlayerConfig
+import chaintech.videoplayer.ui.audio.AudioPlayerView
+import chaintech.videoplayer.ui.video.VideoPlayerView
+import com.example.mucisplayer.ui.theme.data.MockData
+import network.chaintech.sdpcomposemultiplatform.sdp
 
 @Composable
 fun MusicPlayerScreen() {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color.Green)
-    ) {
-
-    }
+    AudioPlayerView(
+        modifier = Modifier.fillMaxSize(),
+        audios = MockData().audioFilesArray,
+    )
 }

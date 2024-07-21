@@ -25,6 +25,9 @@ import com.example.mucisplayer.ui.theme.ui.MusicPlayerScreen
 import com.example.mucisplayer.ui.theme.ui.StoriesScreen
 
 class MainActivity : ComponentActivity() {
+    private val clientId = "ad0911afa57949bba362003f601876b2"
+    private val redirectUri = "https://com.spotify.android.spotifysdkkotlindemo/callback"
+
     @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,7 +58,7 @@ class MainActivity : ComponentActivity() {
             BottomNavItem.getAllIteams().forEach { item ->
                 BottomNavigationItem(
                     selected = currentRoute == item.route,
-                    modifier = Modifier.background(Color.Gray),
+                    modifier = Modifier.background(Color.Black),
                     onClick = {
                         navController.navigate(item.route)
                     },

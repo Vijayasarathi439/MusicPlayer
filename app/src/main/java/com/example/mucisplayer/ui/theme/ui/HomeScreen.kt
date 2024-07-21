@@ -142,7 +142,7 @@ fun HomeView(navController: NavController, paddingValues: PaddingValues) {
                                 color = Color.White,
                                 fontSize = 18.sp
                             ),
-                            modifier = Modifier.padding(10.dp)
+                            modifier = Modifier.padding(top = 20.dp, start = 10.dp)
                         )
                         LazyRow(
                             modifier = Modifier
@@ -165,7 +165,7 @@ fun HomeView(navController: NavController, paddingValues: PaddingValues) {
                                 color = Color.White,
                                 fontSize = 18.sp
                             ),
-                            modifier = Modifier.padding(10.dp)
+                            modifier = Modifier.padding(top = 20.dp, start = 10.dp)
                         )
                         LazyRow(
                             modifier = Modifier
@@ -187,12 +187,12 @@ fun HomeView(navController: NavController, paddingValues: PaddingValues) {
                                 color = Color.White,
                                 fontSize = 18.sp
                             ),
-                            modifier = Modifier.padding(10.dp)
+                            modifier = Modifier.padding(top = 20.dp, start = 10.dp)
                         )
                         LazyRow(
                             modifier = Modifier
                                 .fillMaxSize()
-                                .padding(start = 10.dp, top = 10.dp),
+                                .padding(start = 10.dp, top = 10.dp, bottom = 30.dp),
                             horizontalArrangement = Arrangement.spacedBy(6.dp)
                         )
                         {

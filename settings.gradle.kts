@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "MucisPlayer"
 include(":app")
+include(":spotify-app-remote")
  
